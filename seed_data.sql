@@ -21,3 +21,13 @@ VALUES
 (1, 3, 15.00, '2026-04-03', 'Bus ticket'),
 (1, 4, 25.00, '2026-04-05', 'Cinema'),
 (1, 2, 30.00, '2026-04-06', 'More groceries');
+
+-- Clean
+DELETE FROM dbo.Transactions;
+DELETE FROM dbo.Categories;
+DELETE FROM dbo.Users;
+
+-- Reset identity
+DBCC CHECKIDENT ('dbo.Users', RESEED, 0);
+DBCC CHECKIDENT ('dbo.Categories', RESEED, 0);
+DBCC CHECKIDENT ('dbo.Transactions', RESEED, 0);
