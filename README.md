@@ -87,6 +87,30 @@ GROUP BY MONTH(t.Date);
 * Create dashboard (Power BI)
 * Build a web interface
 
+## Use Cases
+User adds income (salary)
+User records daily expenses (food, transport, etc.)
+User analyzes monthly spending
+User identifies top spending categories
+User compares income vs expenses
+
+## Key Concepts Used
+SQL Joins
+Group By & Aggregation
+Data Relationships (Foreign Keys)
+Views
+Stored Procedures
+
+## Example Results
+Expenses by Category
+
+Food: 75.50
+Transport: 15.00
+Entertainment: 25.00
+
+Monthly Spending
+
+Month 4: 115.50
 ---
 
 ## Author
